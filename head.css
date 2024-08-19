@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1c1b31;
+  color: rgb(154, 225, 12);
+  padding: 20px 0px;
+  /* height: 58px; */
+}
+header nav a {
+  color: azure;
+  font-weight: 500;
+  margin-right: 30px;
+  font-size: 17px;
+}
+header nav a:hover {
+  color: rgb(108, 248, 248);
+  font-weight: 700;
+  margin-right: 30px;
+}
+.btns {
+  font-size: 16px;
+  font-weight: 550px;
+  padding: 4px 12px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #75cfb8;
+  outline: none;
+  margin-left: 20px;
+
+}
+.btns:last-child{
+    background-color: #fa9579;
+}

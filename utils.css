@@ -1,0 +1,21 @@
+.btn {
+  color: #40c4d2;
+  background: #0c3346;
+  border: 2px solid #a4189b;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  margin: 0px 45px;
+}
+.my-1 {
+  margin: 5px 0;
+}
+
+.my-2 {
+  margin: 26px 0;
+}
+
+.text-center {
+  text-align: center;
+}
